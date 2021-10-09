@@ -60,7 +60,9 @@
   color: var(--header-color);
   text-decoration: none;
 }
-
+.main{
+    background: #E5E5E5;
+}
 .header {
   background-color: #ececec;
 }
@@ -84,7 +86,7 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-.button:hover {
+.button:hover, .button:focus{
   color: #188ce8;
 }
 
