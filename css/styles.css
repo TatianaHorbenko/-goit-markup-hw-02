@@ -28,7 +28,7 @@
   font-family: "Roboto", sans-serif;
 }
 .list {
-   font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -58,16 +58,14 @@
   list-style: none;
   text-decoration: none;
 }
-  
- .header-tel {
+
+.header-tel {
   color: var(--header-color);
   list-style: none;
   text-decoration: none;
-  
 }
-.main{
-    background: #E5E5E5;
-    
+.main {
+  background: #e5e5e5;
 }
 .header {
   background-color: #ececec;
@@ -91,7 +89,8 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-.button:hover, .button:focus{
+.button:hover,
+.button:focus {
   color: #188ce8;
 }
 
@@ -158,42 +157,40 @@ h3 {
   list-style: none;
   text-decoration: none;
 }
-.snap{
+.snap {
   cursor: pointer;
-  background: #F5F4FA;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.03em;
-color:var(--secondary-title-color);
-list-style: none;
-text-decoration: none;
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  list-style: none;
+  text-decoration: none;
 }
-.snap-all{
-  background: #2196F3;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
+.snap-all {
+  background: #2196f3;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 
-color:var(--second-text-color);
-
+  color: var(--second-text-color);
 }
-.title{
-font-size: 18px;
-line-height: 2.0;
-letter-spacing: 0.06em;
+.title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 
-color:var(--secondary-title-color)
+  color: var(--secondary-title-color);
 }
-.use{
-line-height: 30px;
-letter-spacing: 0.03em;
+.use {
+  line-height: 30px;
+  letter-spacing: 0.03em;
 
-color:var(--primary-text-color)
-
+  color: var(--primary-text-color);
 }
-.progects{
+.progects {
   list-style: none;
   text-decoration: none;
 }
