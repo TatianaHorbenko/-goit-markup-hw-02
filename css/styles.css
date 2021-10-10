@@ -28,11 +28,11 @@
   font-family: "Roboto", sans-serif;
 }
 .list {
-  list-style: none;
-  font-weight: 500;
+   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  list-style: none;
 }
 .list .link {
   color: var(--accent-color);
@@ -51,17 +51,23 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
+  text-decoration: none;
 }
-.items .header-mailto {
+.header-mailto {
   color: var(--accent-color);
+  list-style: none;
   text-decoration: none;
 }
-.items .header-tel {
+  
+ .header-tel {
   color: var(--header-color);
+  list-style: none;
   text-decoration: none;
+  
 }
 .main{
     background: #E5E5E5;
+    
 }
 .header {
   background-color: #ececec;
@@ -73,7 +79,6 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primery-title-color);
@@ -94,7 +99,6 @@ h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
@@ -103,14 +107,12 @@ h3 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--secondary-title-color);
 }
 .scroll {
   background: #e5e5e5;
 }
 .scroll .scroll-excellence {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -124,7 +126,6 @@ h3 {
   background: #f5f4fa;
 }
 .position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -154,6 +155,45 @@ h3 {
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  text-decoration: none;
+}
+.snap{
+  cursor: pointer;
+  background: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+color:var(--secondary-title-color);
+list-style: none;
+text-decoration: none;
+}
+.snap-all{
+  background: #2196F3;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+
+color:var(--second-text-color);
+
+}
+.title{
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+
+color:var(--secondary-title-color)
+}
+.use{
+line-height: 30px;
+letter-spacing: 0.03em;
+
+color:var(--primary-text-color)
+
+}
+.progects{
   list-style: none;
   text-decoration: none;
 }
