@@ -24,6 +24,19 @@
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
+
+.header-mailto {
+  color: var(--accent-color);
+  list-style: none;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.header-tel {
+  color: var(--header-color);
+  list-style: none;
+  text-decoration: none;
+}
 .body {
   font-family: "Roboto", sans-serif;
 }
@@ -55,18 +68,7 @@
   list-style: none;
   text-decoration: none;
 }
-.header-mailto {
-  color: var(--accent-color);
-  list-style: none;
-  text-decoration: none;
-  color: #2196f3;
-}
 
-.header-tel {
-  color: var(--header-color);
-  list-style: none;
-  text-decoration: none;
-}
 .main {
   background: #e5e5e5;
 }
