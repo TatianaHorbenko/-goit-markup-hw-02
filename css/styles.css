@@ -32,15 +32,17 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   list-style: none;
 }
-.list .link {
+
+.link {
   color: var(--accent-color);
   list-style: none;
   text-decoration: none;
 }
 
-.list .menu-link {
+.menu-link {
   color: var(--header-color);
   list-style: none;
   text-decoration: none;
@@ -57,6 +59,7 @@
   color: var(--accent-color);
   list-style: none;
   text-decoration: none;
+  color: #2196f3;
 }
 
 .header-tel {
@@ -88,6 +91,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  color: var(--second-text-color);
 }
 .button:hover,
 .button:focus {
@@ -107,11 +111,25 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+  list-style: none;
+  text-decoration: none;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.list-centr {
+  list-style: none;
+  text-decoration: none;
 }
 .scroll {
   background: #e5e5e5;
 }
-.scroll .scroll-excellence {
+.scroll-excellence {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -125,6 +143,7 @@ h3 {
   background: #f5f4fa;
 }
 .position {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -132,7 +151,7 @@ h3 {
 }
 .footer {
   font-family: "Roboto", sans-serif;
-  
+
   background: #2f303a;
   font-weight: normal;
   font-size: 14px;
@@ -159,22 +178,36 @@ h3 {
   text-decoration: none;
   font-style: normal;
 }
+.list-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  list-style: none;
+  text-decoration: none;
+}
+
 .snap {
   cursor: pointer;
   background: #f5f4fa;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
   list-style: none;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .snap-all {
   background: #2196f3;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
   letter-spacing: 0.03em;
 
   color: var(--second-text-color);
@@ -187,9 +220,9 @@ h3 {
   color: var(--secondary-title-color);
 }
 .use {
-  line-height: 30px;
-  letter-spacing: 0.03em;
-
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--primary-text-color);
 }
 .progects {
