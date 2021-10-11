@@ -132,7 +132,7 @@ h3 {
 }
 .footer {
   font-family: "Roboto", sans-serif;
-
+  
   background: #2f303a;
   font-weight: normal;
   font-size: 14px;
@@ -151,11 +151,13 @@ h3 {
   color: var(--second-text-color);
   list-style: none;
   text-decoration: none;
+  font-style: normal;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   list-style: none;
   text-decoration: none;
+  font-style: normal;
 }
 .snap {
   cursor: pointer;
